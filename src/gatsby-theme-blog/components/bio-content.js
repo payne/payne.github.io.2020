@@ -7,8 +7,8 @@ import { Styled } from "theme-ui"
 
 export default () => (
   <Fragment>
-    Let's invest in 
-<Styled.a href="https://www.youtube.com/watch?v=HPFuHS6aPhw"> the new compassionate tech values</Styled.a>
+    Let's invest in &nbsp;
+<Styled.a href="https://www.youtube.com/watch?v=HPFuHS6aPhw">the new compassionate tech values</Styled.a>
     {` `}
   </Fragment>
 )
