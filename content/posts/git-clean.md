@@ -18,8 +18,7 @@ description: "git fetch; git rebase origin/master"
 1. git rebase origin/master
 This is better than the `git fetch && git merge origin/master` because it makes better looking git history logs.
 
-So, `
-[tig](https://jonas.github.io/tig/)` 
+So, [tig](https://jonas.github.io/tig/)
 output looks nice and straight.
 
 
