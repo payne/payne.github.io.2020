@@ -12,7 +12,7 @@ description: "Using Data Transfer Objects in Spring MVC is a good tradition?"
 ---
 
 Many spring boot applications use Spring MVC to provide RESTful APIs or create a GUI for a web browser.
-These applications frequently use DTO (data transfer objects) in the controller layer instead of using JPA `@Entity` classes everywhere.
+These applications frequently use DTO (data transfer objects) in the controller layer instead of using JPA `@Entity` classes everwhere.
 
 Is this [cargo cult programming](https://en.wikipedia.org/wiki/Cargo_cult_programming) or a good idea?  My opinion is that it's a good idea, except for very tiny applications.   
 
@@ -33,7 +33,7 @@ to the `@Service` classes.
 1. StackOverflow has a nice discussion of [How to use DTOs in the Controller, Service and Repository pattern](https://stackoverflow.com/questions/61303236/how-to-use-dtos-in-the-controller-service-and-repository-pattern) 
 
 There are many reasons 
-[Andreas](https://stackoverflow.com/users/5221149/andreas)'s answer is great.  It acknowledges that in small projects people sometime use `@Entity` classes in the MVC layer and the importance of not doing that as projects get larger.
+[Andreas](https://stackoverflow.com/users/5221149/andreas)'s answer is great.  It acknowledges that in small projects people sometime use `@Entity` classes in the MVC layer and the importance of not doign that as projects get larger.
 
 I'll 
 quote 
